@@ -1,0 +1,138 @@
+<html>
+
+<!-- Name: Kevin Olenic -->
+<!-- Username: ko19af -->
+<!-- St#: 6814974 -->
+
+<head>
+
+<title>Products</title>
+
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+<script src="Script.js"></script>
+
+<meta name="viewport" content="width=device-width, inital-scale=1">
+
+<!-- this sets a specefic style for this page -->
+<style>
+
+img:hover{
+outline: 4px dashed blue;
+}
+
+</style>
+
+<script>
+
+window.addEventListener('load',loadList)
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<!-- This creates the nav bar -->
+<ul>
+
+<li class="navigate"><a href="index.html">Main Page</a>
+
+<li class="navigate">Products</li>
+
+<li class="navigate"><a href="contact.html">Contact</a>
+
+<li class="navigate"><a href="FAQ.html">FAQ</a>
+
+<li class="navigate"><a href="wishlist.html">WishList</a>
+
+</nav>
+
+</header>
+
+
+<!-- This will show the object that are wishlisted and hold the buttons for adding and removing products -->
+<pre id="wishList">Products In WishList:</pre>
+
+<pre>
+Here is a selection of our wonderful products, click on the image of
+a product you are interested in to learn more about it.
+
+</pre>
+
+<h1>Product_1 - Ditto</h1>
+
+<!-- This creates a clickable image that leads to the corresponding product -->
+<a href="product_1.html">
+<img src="Product.1.png" alt="Product_1">
+</a>
+
+<pre>
+Ditto is our number one best seller as it is capable of taking the form of
+any living creature it sees making it a higly adaptable and desirable product.
+
+<button id="Button_Ditto" onclick="saveToStorage('Ditto')">Add To Wishlist</button>
+
+</pre>
+
+<h1>Product_2 - Xeno</h1>
+
+<!-- This creates a clickable image that leads to the corresponding product -->
+<a href="product_2.html">
+<img src="Product.2.png" alt="Product_2">
+</a>
+
+<pre>
+The Xeno is our most lethal product to date with its razor sharp teeth, scorpion like tail,
+acid blood and high level of intelligence this model is also capable of traversing any
+terrain making it an ideal hunting and killing machine.
+
+<button id="Button_Xeno" onclick="saveToStorage('Xeno')">Add To Wishlist</button>
+
+</pre>
+
+<h1>Product_3 - Graboid</h1>
+
+<!-- This creates a clickable image that leads to the corresponding product -->
+<a href="product_3.html">
+<img src="Product.3.png" alt="Product_3">
+</a>
+
+<pre id="Graboid">
+The Graboid model is our latest in subterranian monsters it is capable of travelling at
+high speeds, and can feel the seismeic activity of its prey, making it our most effective
+subterranian hunter.
+
+<button id="Button_Graboid" onclick="saveToStorage('Graboid')">Add To Wishlist</button>
+
+</pre>
+
+<h1>Product_4 - Kraken</h1>
+
+<!-- This creates a clickable image that leads to the corresponding product -->
+<a href="product_4.html">
+<img src="Product.4.png" alt="Product_4">
+</a>
+
+<pre>
+The kraken is our largest model to date, capable of sinking entire ships with
+minimal effort, and eating entire schools (not fish schools actual schools provided
+they are close to the ocean).
+
+<button id="Button_Kraken" onclick="saveToStorage('Kraken')">Add To Wishlist</button>
+
+</pre>
+
+<footer>
+
+<small> "Disclaimer: no warranty is expressed or implied for the products or ideas contained herein.
+You are solely responsible for trying to find any limbs lost during the exploration/reading of 
+these web pages. Owner is not responsible for loss of sensation in any part of the body.
+
+</footer>
+</body>
+</html>

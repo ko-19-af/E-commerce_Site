@@ -1,0 +1,124 @@
+/*  Name: Kevin Olenic
+    Username: ko19af
+    St#:6814974	*/
+
+/* This moves the navigator bar to the corner of the screen */
+.navigate{
+	padding: 0px;
+	display: inline-block;
+}
+
+/* This puts the nav bar in small bars in a row*/
+@media screen{
+	li a{
+	display: block;
+	color: #3333cc;
+	background-color: #ff9900;
+	border-radius: 100px;
+	padding: 20px;
+	}
+}
+
+/* This sets the color and edges of the nav bar */
+
+
+/* This causes the look of the nav bar to change
+when you hover over it */
+li a:hover{
+	color: #ff9900;
+	background-color: #3333cc;
+}
+
+
+/* This changes the design of the body on all the pages */
+body{
+background-image: url('BackGround.jpg');
+background-repeat: no repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+/* This sets the design of all the paragraphs */
+pre{
+	font-size: 20px;
+	color: #3333cc;
+	margin-left: 20px;
+	background-color: #ff9900;
+	border-radius: 5px;
+	width: 750pt;
+	padding: 10px;
+}
+
+/* this creates a font family consisting of lobster font*/
+@font-face {
+font-family: 'Lobster';
+src: url('Lobster-Regular.ttf')
+}
+
+/* This sets the design for all h1 headers*/
+h1{
+	color: #3333cc;
+	margin-left: 30px;
+	font-family: Lobster;
+}
+
+/* This sets the design for the footer across all pages*/
+footer{
+	padding: 5pt;
+	background-color: violet;
+	border-radius: 5px;
+	width:600pt;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.unclickable{
+	background-color: grey; 
+	border: none;
+	color: black;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+/* This creates the print media rules*/
+@media print {
+  body {
+	  color: green;
+	  font-size: 75px;  
+  }
+  pre {
+  	color: violet;
+  	font-size: 45;
+  }
+  h1 {
+  	color: azure;
+  }
+}

@@ -1,0 +1,88 @@
+<html>
+
+<!-- Name: Kevin Olenic -->
+<!-- Username: ko19af -->
+<!-- St#: 6814974 -->
+
+<head>
+
+<title>Product_1 - Ditto</title>
+
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+<script src="Script.js"></script>
+
+<meta name="viewport" content="width=device-width, inital-scale=1">
+
+<script>
+
+window.addEventListener('load',loadList)
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<!-- This creates the nav bar -->
+<ul>
+<li class="navigate"><a href="index.html">Main Page</a>
+
+<li class="navigate"><a href="products.html">Products</a>
+
+<li class="navigate"><a href="contact.html">Contact</a>
+
+<li class="navigate"><a href="FAQ.html">FAQ</a>
+
+<li class="navigate"><a href="wishlist.html">WishList</a>
+
+</nav>
+
+</header>
+
+<h1>Product_1 - Ditto</h1>
+
+<img src="Product.1.png" alt="Product_1">
+
+<pre>
+Details:
+
+Price: $1899.99
+LifeSpan: 800 years
+Enviroment: any
+Color(s): purple
+Other Details: PolyMorph, prone to homicidal tendencies.
+
+<!-- This button will add the product to local storage and activate other related functions-->
+<button id="Button_Ditto" onclick="saveToStorage('Ditto')">Add To Wishlist</button>
+
+</pre>
+
+<p>
+Watch our product in action, courtesey of Smosh videos.
+</p>
+
+<!-- This creates a viewable video on the webpage -->
+<iframe width="420" height="345" src="https://www.youtube.com/embed/N_nXG8-yLbc">
+</iframe>
+
+<!-- This will show the object that are wishlisted and hold the buttons for adding and removing products -->
+<pre id="wishList">Products In WishList:
+
+</pre>
+
+<footer>
+
+<small> "Disclaimer: no warranty is expressed or implied for the products or ideas contained herein.
+You are solely responsible for trying to find any limbs lost during the exploration/reading of 
+these web pages. Owner is not responsible for loss of sensation in any part of the body.
+
+</footer>
+
+</body>
+
+</html>
