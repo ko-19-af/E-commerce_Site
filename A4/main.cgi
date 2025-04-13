@@ -11,7 +11,7 @@ import cgi, cgitb, os
 print "Content-Type: text/html"
 print
 
-# execute the top.cgi which contains bot python and HTML content
+# execute the top.cgi which contains both python and HTML content
 exec(open("page/top.cgi").read()) #execute a file with javascript and html
 
 # print the pages with HTML content
