@@ -1,0 +1,10 @@
+#<!-- Name: Kevin Olenic -->
+#<!-- Username: ko19af -->
+#<!-- St#: 6814974 -->
+
+To login in as an admin use the below credentials on the login page.
+
+username:ko19af
+password:1234
+
+If you want to login as a user use the register portion of the login page.

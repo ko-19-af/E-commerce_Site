@@ -1,0 +1,142 @@
+/*  Name: Kevin Olenic
+    Username: ko19af
+    St#:6814974	*/
+
+/* This moves the navigator bar to the corner of the screen */
+.navigate{
+	padding: 5px;
+	border:1px solid blue;
+	border-radius: 40px;
+	display: inline-block;
+	background-color: orange;
+}
+
+.navigate:hover{
+
+	background-color: white;
+}
+
+/* This puts the nav bar in small bars in a row*/
+@media screen{
+	li a{
+	display: block;
+	color: #ff9900;
+	background-color: #3333cc;
+	border-radius: 100px;
+	padding: 20px;
+	}
+}
+
+/* This sets the color and edges of the nav bar */
+
+
+/* This causes the look of the nav bar to change
+when you hover over it */
+li a:hover{
+	color: #3333cc;
+	background-color: #ff9900;
+}
+
+
+/* This changes the design of the body on all the pages */
+body{
+background-image: url('Images/BackGround.jpg');
+background-repeat: no repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+/* styling for images */
+img{
+  border: 5px solid #3333cc;
+  border-radius: 4px;
+  padding: 25px;
+  width: 400px;
+}
+
+p{
+	text-align: center;
+	background-color: #3333cc;
+
+}
+
+div{
+	text-align: center;
+
+}
+
+
+/* this centresthe form onto the page*/
+form{text-align: center;}
+
+/* This sets the design of all the paragraphs */
+pre{
+	text-align: center;
+	font-size: 20px;
+	color: #00ff00;
+	margin-left: 20px;
+	background-color: #ff0066;
+	border-radius: 5px;
+	width: 750pt;
+	padding: 10px;
+        white-space: pre-wrap;
+}
+
+/* this creates a font family consisting of lobster font*/
+@font-face {
+font-family: 'Lobster';
+src: url('Lobster-Regular.ttf')
+}
+
+/* This sets the design for all h1 headers*/
+h1{
+	color: #ff0066;
+	margin-left: 30px;
+	font-family: Lobster;
+}
+
+/* This sets the design for the footer across all pages*/
+footer{
+	padding: 5pt;
+	background-color: violet;
+	border-radius: 5px;
+	width:1100pt;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+button {
+  background-color: #ff0066;
+  border: none;
+  color: red;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.unclickable{
+	background-color: black; 
+	border: none;
+	color: red;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #ff0066; 
+  color: black; 
+  border: 2px solid #9900cc;
+}
